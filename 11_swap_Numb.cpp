@@ -3,13 +3,17 @@ using namespace std;
 
 int main() {
     int a,b;
-    cout<<"Enter the first number :";
+    cout<<"What is a : ";
     cin>>a;
-    cout<<"Enter the second number :";
+    cout<<"What is b : ";
     cin>>b;
     int c = a;
     // c = a;
     a = b;
     b = c;
-    cout<<"Now the value of <a> "<< a<<" and <b> is "<< b;
+    // cout<<"Now the value of <a> "<< a<<" and <b> is "<< b;
+    cout<<"After Swaping ......."<<endl;
+    cout<<"a = "<<a<<endl;
+    cout<<"b = "<<b<<endl;
+
 }
